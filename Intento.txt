@@ -1,0 +1,80 @@
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git reset
+Unstaged changes after reset:
+M       your-code/about-me.md
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git status
+On branch lab-resolving-git-conflicts
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   your-code/about-me.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        your-code/Miguel Beitia.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git check out
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git checkout
+M       your-code/about-me.md
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git checkout -b lab-resolving-git-conflicts
+fatal: a branch named 'lab-resolving-git-conflicts' already exists
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ lab-resolving-git-conflicts
+bash: lab-resolving-git-conflicts: command not found
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git lab-resolving-git-conflicts
+git: 'lab-resolving-git-conflicts' is not a git command. See 'git --help'.
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git commit -m "NoIdea"
+On branch lab-resolving-git-conflicts
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   your-code/about-me.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        your-code/Miguel Beitia.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git add your-code/about-me.md
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$ git add your-comde/Miguel Beitia.md
+fatal: pathspec 'your-comde/Miguel' did not match any files
+
+mbs-9@DESKTOP-0OIT187 MINGW64 ~/OneDrive/escritorio/IronHack/reposboot/1.1-lab-resolving-git-conflicts (lab-resolving-git-conflicts)
+$
