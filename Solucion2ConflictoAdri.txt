@@ -1,0 +1,290 @@
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~ (master)
+$ pwd
+/c/Users/Usuario
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~ (master)
+$ cd desktop
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop (master)
+$ cd ironhack
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack (master)
+$ cd bootcamp
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ clone git@github.com:Ironhack-Data-Madrid-Agosto-2022/1.1-lab-resolving-git-conflicts.git
+bash: clone: command not found
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ clone git@github.com:Ironhack-Data-Madrid-Agosto-2022/1.1-lab-resolving-git-conflicts.git
+bash: clone: command not found
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ clone git@github.com:AdrianCiges/1.1-lab-resolving-git-conflicts.git
+bash: clone: command not found
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ git clone git@github.com:AdrianCiges/1.1-lab-resolving-git-conflicts.git
+Cloning into '1.1-lab-resolving-git-conflicts'...
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+Received disconnect from 140.82.121.3 port 22:11: Bye Bye
+Disconnected from 140.82.121.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ git clone git@github.com:AdrianCiges/1.1-lab-resolving-git-conflicts.git
+Cloning into '1.1-lab-resolving-git-conflicts'...
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 9 (delta 0), reused 9 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), 218.56 KiB | 616.00 KiB/s, done.
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ ls
+1.1-lab-bash/  1.1-lab-resolving-git-conflicts/  Apuntes-de-clase/  Labs/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd
+1.1-lab-bash/                    Apuntes-de-clase/
+1.1-lab-resolving-git-conflicts/ Labs/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd
+1.1-lab-bash/                    Apuntes-de-clase/
+1.1-lab-resolving-git-conflicts/ Labs/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd lab-resolving-git-conflicts
+bash: cd: lab-resolving-git-conflicts: No such file or directory
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd
+1.1-lab-bash/                    Apuntes-de-clase/
+1.1-lab-resolving-git-conflicts/ Labs/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd 1.1-lab-
+1.1-lab-bash/                    1.1-lab-resolving-git-conflicts/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd 1.1-lab-
+1.1-lab-bash/                    1.1-lab-resolving-git-conflicts/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd 1.1-lab-resolving-git-conflicts/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   your-code/about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ git add your-code/about-me.md
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ ls
+README.md            git-conflict.png      your-code/
+conflict-merged.png  git-pull-request.png
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ cd README.md
+bash: cd: README.md: Not a directory
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ ls
+README.md            git-conflict.png      your-code/
+conflict-merged.png  git-pull-request.png
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ cd ..
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ ls
+1.1-lab-bash/  1.1-lab-resolving-git-conflicts/  Apuntes-de-clase/  Labs/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp (master)
+$ cd 1.1-lab-resolving-git-conflicts/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ ls
+README.md            git-conflict.png      your-code/
+conflict-merged.png  git-pull-request.png
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts (main)
+$ cd your-code/
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   about-me.md
+
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   about-me.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   about-me.md
+
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git add "about-me.md"
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git commit -m "Intentando actualizar"
+[main a7edd8f] Intentando actualizar
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 370 bytes | 185.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:AdrianCiges/1.1-lab-resolving-git-conflicts.git
+   725b559..a7edd8f  main -> main
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git log
+commit a7edd8f599e8766c79d8570f8919b060e001a4d2 (HEAD -> main, origin/main, origin/HEAD)
+Author: AdrianCiges <adrian.c.ciges@gmail.com>
+Date:   Mon Aug 8 19:26:04 2022 +0200
+
+    Intentando actualizar
+
+commit 725b559bb2d5e3de8ce30efb237c98193e85d5a6
+Author: Gobuub <botica1982@msn.com>
+Date:   Mon Aug 8 13:42:04 2022 +0200
+
+    upload repo
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git reset --hard 725b559bb2d5e3de8ce30efb237c98193e85d5a6
+HEAD is now at 725b559 upload repo
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (main)
+$ git checkout -b lab-resolving-git-conflicts
+Switched to a new branch 'lab-resolving-git-conflicts'
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git branch
+* lab-resolving-git-conflicts
+  main
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git status
+On branch lab-resolving-git-conflicts
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ pws
+bash: pws: command not found
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ pwd
+/c/Users/Usuario/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git add about-me.md
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git commit -m "Intentando otra vez"
+[lab-resolving-git-conflicts 0c14578] Intentando otra vez
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git pull origin main
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+From github.com:AdrianCiges/1.1-lab-resolving-git-conflicts
+ * branch            main       -> FETCH_HEAD
+Auto-merging your-code/about-me.md
+CONFLICT (content): Merge conflict in your-code/about-me.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts|MERGING)
+$ git status
+On branch lab-resolving-git-conflicts
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts|MERGING)
+$ git status
+On branch lab-resolving-git-conflicts
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   about-me.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts|MERGING)
+$ git add about-me.md
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts|MERGING)
+$ git commit -m "¿Arreglado?"
+[lab-resolving-git-conflicts ab4b6b1] ¿Arreglado?
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git pull origin main
+Enter passphrase for key '/c/Users/Usuario/.ssh/id_ed25519':
+From github.com:AdrianCiges/1.1-lab-resolving-git-conflicts
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
+$ git status
+On branch lab-resolving-git-conflicts
+nothing to commit, working tree clean
+
+Usuario@LAPTOP-40OOMAQE MINGW64 ~/desktop/ironhack/bootcamp/1.1-lab-resolving-git-conflicts/your-code (lab-resolving-git-conflicts)
